@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="utf-8">
+    <title>Sobre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!--Css do bootstrap-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+        <header>
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #BC0101; font-size:18px;">
+                  <a class="navbar-brand" href="index.html"><img style="height: 50px;" src="img/ipiranga_natal.png" alt="Imagem"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="promocoes.html">Promoções</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Sobre <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+        </header>
+    <main>
+
+            <br> <br><br><br>
+            <div class="container">
+                <h2 class="titulo_sobres"><strong>Sobre Nós</strong></h2><br>
+                <div class="row">
+                    <div class="col-lg-6">
+                      <p class="sobre">No ano de 1974 o casal Jose Aparecido Pariz Hernandes e 
+                        Ana Maria Piacentin Hernandes ele nascido na cidade de 
+                        Leme e ela nascido na cidade de Americana interior do 
+                        Estado de São Paulo chegam à Taquaritinga para trabalhar 
+                        como trabalhador rural na Fazenda Rincão Novo em Taquaritinga 
+                        SP de propriedade do Dr. Carlos Nogueira Ferraz, constituindo 
+                        neste local sua família com os 2 filhos Elaine Cristiane Pariz 
+                        Hernandes e Edson Fernando Pariz Hernandes.
+                              Com o advento do crescimento urbano parte da Fazenda 
+                              Rincão Novo ficou situada no Bairro Conjunto 
+                              Residencial Ipiranga, um bairro predominantemente 
+                              habitado por trabalhadores rurais e funcionários de 
+                              Usinas de Cana de Açúcar, onde a maioria das casas 
+                              pertenciam as Usinas de Cana de Açúcar da região.</p>
+                    </div> 
+                    <div class="col-lg-6">
+                      <img class="img-fluid" src="img/loja1.jpg" alt="">
+                    </div>  
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="img/loja1.jpg" alt="">
+                      </div> 
+                      <div class="col-lg-6">
+                          <img class="img-fluid" src="img/loja2.jpg" alt="">
+                        </div>
+                </div>
+            </div> 
+            <br><br><br>
+
+    </main> 
+    <footer class="footer" style="background-color: #BC0101;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Endereço</h4>
+            <p class="lead mb-0">Loja 1 <br> Av Heitor Alves Gomes, 1001, Talavasso
+              <br>(16) 3253-69945</p>
+          </div>
+      <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">&nbsp;</h4>
+            <p class="lead mb-0">Loja 2 <br> Rua Barão do Triunfo, 1075, Farwest
+              <br>(16) 3253-0804</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0 text-right">
+            <h4 class="text-uppercase mb-4">Redes sociais</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/sup.ipiranga.7">
+                  <i class="fab fa-fw fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.instagram.com/superipiranga/">
+                  <i class="fab fa-fw fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    <div class="copyright py-3 text-center text-white">
+      <div class="container">
+        <small  style="font-size:16px">Supermercado Ipiranga, todos os direitos reservados &copy; 2018!</small>
+      </div>
+    </div>   
+
+
+  <script src ="js/jquery-3.3.1.slim.min.js" ></script>
+  <script src ="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
